@@ -64,14 +64,13 @@ function getIconStyle(icon: TechnologyIcon): string {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="less">
 .icons {
   position: relative;
-  width: 256px;
-  height: 256px;
-}
-
-.icon {
-  position: absolute;
+  transform: scale(0.5);
+  
+  .icon {
+    position: absolute;
+  }
 }
 </style>
